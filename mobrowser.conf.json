@@ -1,0 +1,90 @@
+{
+  "app": {
+    "name": "Hello World",
+    "version": {
+      "major": "0",
+      "minor": "0",
+      "patch": "1"
+    },
+    "author": "",
+    "copyright": "",
+    "description": "",
+    "locales": ["en-US"],
+    "trustedOrigins": [],
+    "updateServerUrl": "",
+    "schemes": [],
+    "bundle": {
+      "macOS": {
+        "executableName": "",
+        "icon": "assets/app.icns",
+        "bundleID": "com.mobrowser.helloworld",
+        "extraInfo": "",
+        "codesignIdentity": "${MACOS_CODESIGN_IDENTITY}",
+        "codesignEntitlements": "assets/entitlements.plist",
+        "fileAssociations": [],
+        "teamID": "${MACOS_TEAM_ID}",
+        "appleID": "${MACOS_APPLE_ID}",
+        "provisioningProfile": "",
+        "password": "${MACOS_APPLE_PASSWORD}",
+        "extras": [],
+        "installer": {
+          "dmg": {
+            "name": "",
+            "volumeName": "",
+            "volumeIcon": "assets/app.icns",
+            "eula": "",
+            "deltaStrategy": "BestSpeed",
+            "window": {
+              "textSize": 14,
+              "skipPrettifying": false,
+              "backgroundImage": "",
+              "position": {
+                "x": 500,
+                "y": 400
+              },
+              "size": {
+                "width": 600,
+                "height": 400
+              },
+              "icon": {
+                "size": 150,
+                "position": {
+                  "x": 160,
+                  "y": 160
+                }
+              },
+              "appDropLink": {
+                "x": 430,
+                "y": 160
+              }
+            }
+          }
+        }
+      },
+      "Windows": {
+        "icon": "assets/app.ico",
+        "signCommand": "",
+        "installer": {
+          "exe": {
+            "name": "",
+            "icon": "assets/app.ico",
+            "installationGif": "",
+            "packageId": "com.mobrowser.helloworld",
+            "installationFolderName": "HelloWorld",
+            "displayName": "Hello World",
+            "deltaStrategy": "BestSpeed"
+          }
+        }
+      }
+    }
+  },
+  "automation": {
+    "mode": "interactive"
+  },
+  "native": {
+    "protobuf": {
+      "mode": "auto",
+      "toolchainMatch": "major"
+    }
+  }
+}
